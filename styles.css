@@ -1,0 +1,62 @@
+body {
+  padding: 0px;
+  margin: 7px;
+}
+
+header {
+  display: flex;
+}
+header .container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+header .container .logo {
+  text-decoration: none;
+  color: purple;
+  font-family: Public Sans;
+  font-size: 1.5rem;
+  font-style: bold;
+  margin-top: 2px;
+  word-spacing: 1px;
+  font-weight: 600;
+}
+header .container a span {
+  font-family: tangerine, cursive;
+  font-size: 40px;
+}
+header .container .nav-bar {
+  display: flex;
+  list-style: none;
+  margin-top: 7px;
+  margin-bottom: 1px;
+  gap: 20px;
+  align-items: center;
+}
+header .container .nav-bar li a {
+  text-decoration: none;
+  color: purple;
+}
+header .container .nav-bar a:hover {
+  color: pink;
+}
+
+.section-first {
+  background-color: rgb(200, 232, 232);
+  height: 10vh;
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border: 70px;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  height: 70px;
+  background-color: aqua;
+  margin-top: 90vh;
+  background-attachment: fixed;
+}/*# sourceMappingURL=styles.css.map */
